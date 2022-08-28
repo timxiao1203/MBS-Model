@@ -4,11 +4,8 @@ This article presents a Mortgage-Backed Security (MBS) model. Our analysis has f
 
 We begin with a review of mortgage mathematics and outlines variables that are used in subsequent sections.  Payment schedules of mortgages and the cashflows accruing to an MBS holder are also discussed in this section. A discounted cash flow (DCF) model constitutes the main pricing engine of the MBS, however, the main theoretical aspects of the model pertain to the prepayment assumptions corresponding to the underlying mortgage. A discussion of the two prepayment models is outlined in the next section.
 
-Standard Canadian balloon mortgages consist of fixed level monthly payments with a semi-annually compounded rate. This requires that the annual MBS coupon rate and the annual weighted average mortgage rate be converted as:
+Standard Canadian balloon mortgages consist of fixed level monthly payments with a semi-annually compounded rate. This requires that the annual MBS coupon rate (see https://finpricing.com/lib/FiBondCoupon.html) and the annual weighted average mortgage rate be converted as:
 
- 
-
- 
 
 To price an MBS we need to evaluate the monthly payments made to the underlying mortgage. These payments are divided into scheduled and unscheduled payments. The scheduled payments consist of principle and interest payments and the unscheduled payments consist solely of principle prepayments.
 
@@ -34,13 +31,6 @@ As above the estimate of the scheduled remaining principal balance is calculated
 
 The estimated remaining principal balance can be determined reflecting both liquidation and partial prepayments as:
 
-References:
-
-https://finpricing.com/lib/EqSpread.html
-
-https://zenodo.org/record/6612377#.YpppA6gpDq4
-
-https://zenodo.org/record/6612377/files/MbsPricing.pdf
 
 
 
